@@ -1,0 +1,27 @@
+<div id="login-page" ng-controller="LoginController as login">
+
+    <div id="fullscreen_bg" class="fullscreen_bg"/>
+
+    <div class="container">
+
+        <form ng-submit="CheckLogin()" name="loginForm">
+
+            <div class="form-group">
+                <h1 class="logo-login">Chive</h1>
+               <!-- <h6 >"we take the location & show photos there"</h6>-->
+                <h2 class="sign-in-title">Sign In</h2>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email" ng-model="username" name="uName" required minlength="4">
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ng-model="password" name="uPass" required pattern="([a-zA-Z0-9]){4,16}">
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" ng-disabled="loginForm.$invalid">Login</button>
+            <a href="#/register" type="button" class="btn btn-lg btn-primary btn-block">Register</a>
+            <h6 class="forgot-password">forgot your password?</h6>
+
+        </form>
+
+    </div>
+
+</div>

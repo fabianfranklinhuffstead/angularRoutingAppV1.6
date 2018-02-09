@@ -1,0 +1,48 @@
+<div id="profile-page" ng-controller="">
+
+    <div class="container">
+        <div class="row">
+            <img src="images/avatar.png" class="img-responsive" alt="avatar">
+            <div class="panel panel-primary">
+                <h2 style="text-align: center">Name here</h2>
+                <div class="panel-body">
+                    <div class="profile_image">
+                    </div>
+                    <form method="POST" action="#" role="form">
+                        <div class="form-group">
+                            <label class="control-label" for="signupName">Username</label>
+                            <input id="signupName" type="text" maxlength="50" class="form-control" placeholder="{{username}}">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="signupEmail">Email</label>
+                            <input id="signupEmail" type="email" maxlength="50" class="form-control" placeholder="{{email}}">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="signupEmailagain">Old Password</label>
+                            <input id="signupEmailagain" type="password" maxlength="50" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="signupPassword">New Password</label>
+                            <input id="signupPassword" type="password" maxlength="25" class="form-control" placeholder="at least 6 characters" length="40">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="signupPasswordagain">New Password again</label>
+                            <input id="signupPasswordagain" type="password" maxlength="25" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button id="uploadnewphoto" type="" class="btn btn-info btn-block">Upload new profile image</button>
+                        </div>
+                        <div class="form-group">
+                            <button id="signupSubmit" type="submit" class="btn btn-info btn-block">Save details</button>
+                        </div>
+                        <!--<p style="text-align: center"> Check out our <a>user guide</a> for more information</p> -->
+                        <a href="#/login"><p style="text-align: center; text-decoration: underline">Log out</p></a>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

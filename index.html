@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" ng-app="ChiveApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- The viewport is the user's visible area of a web page. -->
+
+    <title>Chive</title>
+
+    <!-- FIREBASE -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script> -->
+
+
+    <!-- STANDALONE SCRIPTS -->
+    <script src="node_modules/jquery/dist/jquery.min.js "></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- LIBRARY SPECIFIC SCRIPTS -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="node_modules/ngstorage/ngStorage.min.js"></script>
+
+
+    <!-- STANDALONE STYLESHEETS (BOOTSTRAP & MORE)-->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- APP WIDE CSS (COMMON) TO BE APPLIED EVERYWHERE -->
+    <link rel="stylesheet" href="stylesheets/app.css">
+
+
+    <!-- CUSTOM STYLESHEETS FOR EACH OF OUR PAGES -->
+    <link rel="stylesheet" href="stylesheets/login.css">
+    <link rel="stylesheet" href="stylesheets/register.css">
+    <link rel="stylesheet" href="stylesheets/dashboard.css">
+    <link rel="stylesheet" href="stylesheets/profile.css">
+
+</head>
+
+
+<body ng-controller="mainController as main">
+
+<!-- Add your site or application content here -->
+<!-- <div ng-show="false">
+    <h1> This is a test for controllers {{ mainmessage }}</h1>
+    <h2> This is a test for the {{ test2 }}</h2>
+    <h3> This is a test for the {{test3()}}</h3>
+</div> -->
+
+<!-- NAVIGATION BAR -->
+<div class="navbar" ng-if="true"> <!-- add variable here -->
+    <ul class="nav nav-pills nav-justified">
+        <div class="main-nav-logo"><h2>
+
+            <span ><a href="#/dashboard" class="chive-dashboard">Chive</a></span>
+            <a href="#/profile"><li class="settings-cog"><i class="fa fa-cog" aria-hidden="true"></i></li></a>
+            <a href="#"> <li class="add-new-photo"><i class="fa fa-plus" aria-hidden="true"></i></li></a>
+
+        </h2></div>
+
+    </ul>
+</div>
+
+<div class="container-fluid">
+    <!--WHERE EACH APP IS DISPLAYED -->
+    <div ng-view>
+        This will display page contents....
+    </div>
+</div>
+<!-- footer -->
+<div class="panel-footer" ng-show="true"> <!-- add variable here -->
+    Copyright &copy; Chive 2016
+</div>
+<!-- footer -->
+
+
+<!-- BELOW ARE THE CUSTOM APP SCRIPTS FOR THE APPLICATIONS USE -->
+
+<!-- THIS IS THE APP SETUP SCRIPT -->
+<script src="scripts/app.js"></script>
+
+<!-- NAVIGATION SCRIPT OT ALL PAGES -->
+<script src="scripts/controllers/navigation.js"></script>
+
+<!-- THESE SCRIPTS ARE FOR PAGE CONTROLLER -->
+<script src="scripts/controllers/login.js"></script>
+<script src="scripts/controllers/home.js"></script>
+<script src="scripts/controllers/dashboard.js"></script>
+<script src="scripts/controllers/profile.js"></script>
+<script src="scripts/controllers/register.js"></script>
+
+
+<!-- THE NEXT SCRIPTS ARE ALL APP SERVICES i.e. LoginService -->
+
+<!-- THE NEXT SCRIPTS ARE ALL DIRECTIVES -->
+
+
+</body>
+</html>

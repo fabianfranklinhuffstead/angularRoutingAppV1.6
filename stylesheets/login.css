@@ -1,0 +1,55 @@
+.logo-login{
+
+    text-align: center;
+    font-family: "Helvetica Neue";
+    color: #ffffff;
+    font-size: 6em;
+}
+.sign-in-title{
+    text-align: center;
+    text-shadow: 2px 2px #666666;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    color: #ffffff;
+}
+.form-control{
+    text-align: center;
+    font-size: 120%;
+}
+.fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    /*background-image: url('../images/bokeh.jpg');*/
+    background-color: #0E6655;
+    background-repeat:repeat;
+    z-index: -1000;
+}
+
+.btn{
+    background: transparent;
+    border-color: #dddddd;
+}
+.btn:hover{
+    background: #dddddd;
+    border-color: #dddddd;
+}
+.btn:active{
+    background: #dddddd !important;
+    border-color: #dddddd !important;
+}
+.btn:focus{
+    background: #dddddd;
+    border-color: #dddddd;
+}
+.forgot-password{
+    text-align: center;
+    color: #ffffff;
+}
+.forgot-password:active{
+    text-decoration: underline;
+}

@@ -1,0 +1,70 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+.body{
+}
+
+.navbar{
+    background-color: #0E6655;
+}
+
+body > div.navbar > ul{
+}
+
+.main-nav-logo{
+    text-align: center;
+    color: #ffffff;
+    clear: both;
+}
+.nav-pills>li>a{
+    color: white;
+}
+
+/* OVER-RIDE THE BOOTSTRAP THEME*/
+.chive-dashboard{
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+.chive-dashboard:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.chive-dashboard:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+.chive-dashboard:active{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.settings-cog{
+    color: #ffffff;
+    float: left;
+    font-size: 100%;
+    padding-left: 10%;
+    margin-top: .5em;
+}
+.add-new-photo{
+    color: #ffffff;
+    float: right;
+    font-size: 100%;
+    padding-right: 10%;
+    margin-top: .5em;
+}
+
+
+.main-nav-logo > h2:nth-child(1) > span:nth-child(1){
+    font-size: 180%;
+}
+
+.panel-footer{
+    background-color: #0E6655;
+    text-align: center;
+    border: none;
+    font-family: "Helvetica Neue";
+    color: #ffffff;
+}
+

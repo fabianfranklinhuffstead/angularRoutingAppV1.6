@@ -7,3 +7,4 @@
   <li>For further iteration please check ionic and firebase project</li>
   <li>Requires live server to run application</li>
 </ul>
+<p>Please contact for fixes, changes further instructions</p>

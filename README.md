@@ -1,8 +1,8 @@
 # angularRoutingAppV1.6
 
-<h2>An early iteration of a Angular v1.6 & Html5 web application</h2>
-
 <img src="https://github.com/fabianfranklinhuffstead/angularRoutingAppV1.6/blob/master/images/angularjs.jpg">
+
+<h2>An early iteration of a Angular v1.6 & Html5 web application</h2>
 
 <ul>
   <li>An angular version 1 project displaying basic routing</li>

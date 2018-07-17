@@ -11,7 +11,7 @@
 
 
 <h1>Screens</h1>
-<p><a href="https://getbootstrap.com">Bootstrap</a> is use for minor styling with @media queries for custom css sections</p>
+<p><a href="https://getbootstrap.com">Bootstrap</a> is use for minor styling with @media queries for custom css sections. The desktop and mobile views of the application are below.</p>
 <h2>Mobile view</h2>
 <p>This is the mobile view for this application running on localhost.</p>
 <img src="https://github.com/fabianfranklinhuffstead/angularRoutingAppV1.6/blob/master/images/screenshot1.png" height="50%" width="50%">

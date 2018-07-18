@@ -17,7 +17,7 @@
 <img src="https://github.com/fabianfranklinhuffstead/angularRoutingAppV1.6/blob/master/images/screenshot1.png" height="50%" width="50%">
 
 <h2>Desktop view</h2>
-<p>This is the desktop view of the same application running on localhost. This is the view for non mobile devices.</p>
+<p>This is the desktop view of the same application running on localhost. This is the view for non mobile devices to accomdate the increase of real estate on the screen you can see that it spans over several columns.</p>
 <img src="https://github.com/fabianfranklinhuffstead/angularRoutingAppV1.6/blob/master/images/screenshot2.png" height="50%" width="50%">
 
 <p>Please contact for fixes, changes further instructions</p>
